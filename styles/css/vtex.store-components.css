@@ -6,6 +6,7 @@
 .squaredCard,
 .rectangularCard {
   height: 9.375rem;
+  margin: 5px 10px;
 }
 
 .squaredCard {
