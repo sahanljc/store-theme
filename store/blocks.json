@@ -288,7 +288,7 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
+          "image": "http://www.industrialbusinesssource.com/Advertisement/new%20ads%20ibs%202016-2017/unitech%20eng.jpg",
           "description": "Test description"
         },
         {
@@ -374,10 +374,54 @@
       "cardShape": "squared"
     }
   },
-  "title#dept2": {},
-  "categories-highlights#dept2": {},
-  "title#dept3": {},
-  "categories-highlights#dept3": {},
+  "title#dept2": {
+    "props": {
+      "content": "Electronic components",
+      "alignment": "center"
+    }
+  },
+  "categories-highlights#dept2": {
+    "props": {
+      "categoriesHighlighted": { 
+        "categoryX": { "name": "CH-1452", "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/kjo9jqk4h8sb3ucvufe74qc48qqb1lqh/1554220800000/00265870319017208245/*/1sL9XLP094LnAR0jm8wdcZ20NBgTe1ndT" }, 
+        "categoryY": { "name": "DD-12345", "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/fmsl5ro24qnvk6gupsuutoirkib91ufb/1554220800000/00265870319017208245/*/1lDhs6R-P_mclELKXPdMhnZ9X0duR8gUC" }, 
+        "categoryA": { "name": "H64-3", "image": "" }, 
+        "categoryB": { "name": "Connectors", "image": "" }, 
+        "categoryC": { "name": "CD-134-Cooling", "image": "" }, 
+        "categoryD": { "name": "AC Fan", "image": "" }, 
+        "categoryE": { "name": "Thermo Meter", "image": "" }, 
+        "categoryF": { "name": "Fan With Stand", "image": "" }, 
+        "categoryG": { "name": "Cooling Fan", "image": "" }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems":8,
+      "cardShape": "squared"
+    }
+  },
+  "title#dept3": {
+    "props": {
+      "content": "Fastners and Hardware",
+      "alignment": "center"
+    }
+  },
+  "categories-highlights#dept3": {
+    "props": {
+      "categoriesHighlighted": { 
+        "categoryX": { "name": "WH-1RT-52", "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/2dmn0sc66a5963750cmfc5l2gs9l82sa/1554220800000/00265870319017208245/*/1nLrumfCku_i7UtgilIbuD0KRm9mexpTA" }, 
+        "categoryY": { "name": "DG-FB-25", "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/p49tqhc6feqljoeblc5fclk2djnskaef/1554220800000/00265870319017208245/*/1R-6H-izyr5fI2YZcBsRRtgDVc_EdbffA" }, 
+        "categoryA": { "name": "UL-4-3", "image": "https://doc-0c-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/812in32eq5flhqv8no9ko8afupmnltqj/1554220800000/00265870319017208245/*/1MQWtDmq548SFgIgYFM4wTIV7T8yDgXYr" }, 
+        "categoryB": { "name": "Connectors", "image": "" }, 
+        "categoryC": { "name": "CD-134-Cooling", "image": "" }, 
+        "categoryD": { "name": "AC Fan", "image": "" }, 
+        "categoryE": { "name": "Thermo Meter", "image": "" }, 
+        "categoryF": { "name": "Fan With Stand", "image": "" }, 
+        "categoryG": { "name": "Cooling Fan", "image": "" }
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems":8,
+      "cardShape": "squared"
+    }
+  },
   "shelf#home": {
     "blocks": [
       "product-summary"
