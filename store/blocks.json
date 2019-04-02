@@ -273,7 +273,7 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://i.pinimg.com/originals/3d/f5/40/3df54007384706d1c5588fa8f4623591.jpg",
+          "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/himt0l4cuqqrrj8jk8440fm0fq4upjl3/1554192000000/00265870319017208245/*/1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
           "description": "Test description",
           "height": 320
         },
@@ -324,44 +324,83 @@
       "banners": [
         {
           "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
-          "description": "Test description",
+          "description": "Heyco",
           "height": 320
         },
         {
-          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
-          "description": "Test description 2",
+          "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/s13mravg0o6smoal81br44lscefhgsen/1554192000000/00265870319017208245/*/1Cqs3TndXikpPLBdR-YFZ5f4mP8kJOpg4",
+          "description": "Southco",
           "height": 320
         },
         {
-          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
-          "description": "Test description",
+          "image": "https://doc-00-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ioecfd38jo4b8r3gdr50ge5e0fcs6dgn/1554199200000/00265870319017208245/*/1653h2RP8ToevssawdxnorqlmQJWv3CBP",
+          "description": "Raf",
           "height": 320
         },
         {
-          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
-          "description": "Test description 2",
+          "image": "https://doc-0c-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/05mdtord6siplj21pr53jdu3q6kr8du5/1554199200000/00265870319017208245/*/10Ngj8_Mj7RrueoNWjamTm0wY_Gxm-Aug",
+          "description": "Mill max",
           "height": 320
         },
         {
-          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
-          "description": "Test description",
+          "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/qd2262r3938te1b68f56n9mm22q3ljql/1554199200000/00265870319017208245/*/1bVuref2791x4XHCbDTmzlW70ZKuQm_08",
+          "description": "Kato",
           "height": 320
         },
         {
-          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
-          "description": "Test description 2",
+          "image": "https://doc-00-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/pmjfnoap6pam83ireou9hv9th4s9gmff/1554199200000/00265870319017208245/*/1YoKif6tPb_9dwFxMikkFpKQY4x9hho2H",
+          "description": "Calmarc",
+          "height": 320
+        },
+        {
+          "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/fnasn6mfo60hee6j8bbmepqbgd7uva3g/1554199200000/00265870319017208245/*/18wJL1dyvC4jUouCT8TFuIzd1LL2h0HPM",
+          "description": "Birtchar",
+          "height": 320
+        },
+        {
+          "image": "https://doc-0g-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/6mkp3i3tnu98j64gbbr63pjesrdslvam/1554199200000/00265870319017208245/*/1mJu7RmB8OPM0nTV_GKH0rq_MOLZyETN4",
+          "description": "Avvid",
           "height": 320
         }
       ],
       "height": 200,
-      "showArrows": false,
+      "showArrows": true,
       "showDots": false,
       "perPage": 6,
-      "draggable": false
+      "draggable": true
     }
   },
-  "title#dept1": {},
-  "categories-highlights#dept1": {},
+  "title#dept1": {
+    "props": {
+      "content": "Department 1",
+      "alignment": "center"
+    }
+  },
+  "categories-highlights#dept1": {
+    "props": {
+      "categoriesHighlighted": { 
+        "categoryX": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryY": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryA": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryB": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryC": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryD": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryE": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryF": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryG": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryH": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryI": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryJ": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryK": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryL": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" },
+        "categoryM": { "name": "Image 1", "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg" }, 
+        "categoryN": { "name": "image 2", "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg" } 
+      },
+      "showCategoriesHighlighted": true,
+      "quantityOfItems":8,
+      "cardShape": "squared"
+    }
+  },
   "title#dept2": {},
   "categories-highlights#dept2": {},
   "title#dept3": {},
