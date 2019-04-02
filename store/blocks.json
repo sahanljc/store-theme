@@ -2,7 +2,13 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      "shelf#home"
+      "shelf#home",
+      "title#dept1",
+      "categories-highlights#dept1",
+      "title#dept2",
+      "categories-highlights#dept2",
+      "title#dept3",
+      "categories-highlights#dept3"
     ]
   },
   "store.product": {
@@ -232,6 +238,12 @@
       "showDots": true
     }
   },
+  "title#dept1": {},
+  "categories-highlights#dept1": {},
+  "title#dept2": {},
+  "categories-highlights#dept2": {},
+  "title#dept3": {},
+  "categories-highlights#dept3": {},
   "shelf#home": {
     "blocks": [
       "product-summary"

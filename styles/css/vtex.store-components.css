@@ -1,0 +1,25 @@
+.squaredCategoriesHighlights:only-child,
+.rectangularCategoriesHighlights:only-child {
+  display: block;
+}
+
+.squaredCard,
+.rectangularCard {
+  height: 9.375rem;
+}
+
+.squaredCard {
+  width: 9.375rem;
+}
+
+.rectangularCard {
+  width: 18.075rem;
+}
+
+.squaredCardImage {
+  width: 9.375rem;
+}
+
+.rectangularCardImage {
+  width: 18.075rem;
+}
