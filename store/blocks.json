@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      "shelf#home",
+      "carousel#banners",
+      "title#brands",
+      "carousel#brands",
       "title#dept1",
       "categories-highlights#dept1",
       "title#dept2",
@@ -120,75 +122,112 @@
       "socialNetworks": [
         {
           "__editorItemTitle": "Facebook",
-          "socialNetwork": "Facebook"
+          "socialNetwork": "Facebook",
+          "url": "#"
+        },
+        {
+          "__editorItemTitle": "Twitter",
+          "socialNetwork": "Twitter",
+          "url": "#"
         }
       ],
       "sectionLinks": [
         {
-          "__editorItemTitle": "Institucional",
-          "title": "Institucional",
+          "__editorItemTitle": "Company Info",
+          "title": "Company Info",
           "links": [
             {
-              "__editorItemTitle": "Garantia Estendida",
-              "title": "Garantia Estendida"
+              "__editorItemTitle": "About Us",
+              "title": "About Us",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Relações com investidores",
-              "title": "Relações com investidores"
+              "__editorItemTitle": "Locations",
+              "title": "Locations",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Trabalhe conosco",
-              "title": "Trabalhe conosco"
+              "__editorItemTitle": "Careers",
+              "title": "Careers",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Política de privacidade",
-              "title": "Política de privacidade"
+              "__editorItemTitle": "Blog",
+              "title": "Blog",
+              "url": "#"
             }
-          ]
+          ],
+          "titleCapitals": true,
+          "titleBold": true
         },
         {
-          "__editorItemTitle": "Dúvidas",
-          "title": "Dúvidas",
+          "__editorItemTitle": "Quality",
+          "title": "Quality",
           "links": [
             {
-              "__editorItemTitle": "Atendimento",
-              "title": "Atendimento"
+              "__editorItemTitle": "Terms and Conditions",
+              "title": "Terms and Conditions",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Trocas e devoluções",
-              "title": "Trocas e devoluções"
+              "__editorItemTitle": "AS9100 Certification",
+              "title": "AS9100 Certification",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Direito de arrependimento",
-              "title": "Direito de arrependimento"
+              "__editorItemTitle": "AS9120 Certification",
+              "title": "AS9120 Certification",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Politica de entrega",
-              "title": "Politica de entrega"
+              "__editorItemTitle": "AC 00-56B Certification",
+              "title": "AC 00-56B Certification",
+              "url": "#"
             }
-          ]
+          ],
+          "titleCapitals": true,
+          "titleBold": true
         },
         {
-          "__editorItemTitle": "Nosso Cartão",
-          "title": "Nosso Cartão",
+          "__editorItemTitle": "Website Info",
+          "title": "Website Info",
           "links": [
             {
-              "__editorItemTitle": "Peça já o seu!",
-              "title": "Peça já o seu!"
+              "__editorItemTitle": "Website Feedback",
+              "title": "Website Feedback",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Central de Promoções",
-              "title": "Central de Promoções"
-            },
-            {
-              "__editorItemTitle": "Programas Milhas",
-              "title": "Programas Milhas"
-            },
-            {
-              "__editorItemTitle": "Benefícios",
-              "title": "Benefícios"
+              "__editorItemTitle": "Privacy Policy",
+              "title": "Privacy Policy",
+              "url": "#"
             }
-          ]
+          ],
+          "titleCapitals": true,
+          "titleBold": true
+        },
+        {
+          "__editorItemTitle": "Support",
+          "title": "Support",
+          "links": [
+            {
+              "__editorItemTitle": "Contact",
+              "title": "Contact",
+              "url": "#"
+            },
+            {
+              "__editorItemTitle": "AOG Service",
+              "title": "AOG Service",
+              "url": "#"
+            },
+            {
+              "__editorItemTitle": "Supply Chain Service",
+              "title": "Supply Chain Service",
+              "url": "#"
+            }
+          ],
+          "titleCapitals": true,
+          "titleBold": true
         }
       ],
       "badges": [
@@ -232,10 +271,93 @@
     "props": {
       "autoplay": true,
       "autoplaySpeed": 4,
-      "banners": [],
+      "banners": [
+        {
+          "image": "https://i.pinimg.com/originals/3d/f5/40/3df54007384706d1c5588fa8f4623591.jpg",
+          "description": "Test description",
+          "height": 320
+        },
+        {
+          "image": "https://www.aircraftfast.com/images/categories/nut-plate-category.jpg",
+          "description": "Test description 2",
+          "height": 320
+        }
+      ],
       "height": 440,
       "showArrows": true,
       "showDots": true
+    }
+  },
+  "carousel#banners":{
+    "props": {
+      "autoplay": false,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
+          "description": "Test description",
+          "height": 320
+        },
+        {
+          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
+          "description": "Test description 2",
+          "height": 320
+        }
+      ],
+      "height": 200,
+      "showArrows": false,
+      "showDots": false,
+      "perPage": 2,
+      "draggable": false
+    }
+  },
+  "title#brands": {
+    "props": {
+      "content": "Manufacturer Spotlight",
+      "alignment": "center"
+    }
+  },
+  "carousel#brands":{
+    "props": {
+      "autoplay": false,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
+          "description": "Test description",
+          "height": 320
+        },
+        {
+          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
+          "description": "Test description 2",
+          "height": 320
+        },
+        {
+          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
+          "description": "Test description",
+          "height": 320
+        },
+        {
+          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
+          "description": "Test description 2",
+          "height": 320
+        },
+        {
+          "image": "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Enterprise/Affiliate/ENT_AFF_2_Hero_Img_1A.jpg",
+          "description": "Test description",
+          "height": 320
+        },
+        {
+          "image": "https://login.beezmall.com/img/gallery/1006238/banner_20171009_215749.jpg",
+          "description": "Test description 2",
+          "height": 320
+        }
+      ],
+      "height": 200,
+      "showArrows": false,
+      "showDots": false,
+      "perPage": 6,
+      "draggable": false
     }
   },
   "title#dept1": {},
