@@ -20,6 +20,16 @@
       "shelf.relatedProducts"
     ]
   },
+  "store.custom#about": {
+    "blocks": [
+      "carousel#about"
+    ]
+  },
+  "store.custom#location": {
+    "blocks": [
+      "carousel#location"
+    ]
+  },
   "store.search": {
     "blocks": [
       "search-result"
@@ -67,7 +77,13 @@
       "menu-link",
       "telemarketing",
       "category-menu"
-    ]
+    ],
+    "props":{
+      "logoUrl": "https://www.biscoind.com/images/bisco-logo.png",
+      "collapsibleAnimation": {
+        "onScroll": false
+      }
+    }
   },
   "menu-link": {
     "props": {
@@ -269,7 +285,45 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/kv9um4bg9v5hpk80nk0u6cdos9bc839q/1554220800000/00265870319017208245/*/1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
+          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
+          "description": "Test description"
+        },
+        {
+          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
+          "description": "Test description 2"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "carousel#about":{
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
+          "description": "Test description"
+        },
+        {
+          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
+          "description": "Test description 2"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "carousel#location":{
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
           "description": "Test description"
         },
         {
@@ -315,31 +369,35 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/s13mravg0o6smoal81br44lscefhgsen/1554192000000/00265870319017208245/*/1Cqs3TndXikpPLBdR-YFZ5f4mP8kJOpg4",
+          "image": "https://drive.google.com/uc?export=view&id=1Cqs3TndXikpPLBdR-YFZ5f4mP8kJOpg4",
           "description": "Southco"
         },
         {
-          "image": "https://doc-00-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ioecfd38jo4b8r3gdr50ge5e0fcs6dgn/1554199200000/00265870319017208245/*/1653h2RP8ToevssawdxnorqlmQJWv3CBP",
+          "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
           "description": "Raf"
         },
         {
-          "image": "https://doc-0c-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/05mdtord6siplj21pr53jdu3q6kr8du5/1554199200000/00265870319017208245/*/10Ngj8_Mj7RrueoNWjamTm0wY_Gxm-Aug",
+          "image": "https://drive.google.com/uc?export=view&id=10Ngj8_Mj7RrueoNWjamTm0wY_Gxm-Aug",
           "description": "Mill max"
         },
         {
-          "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/qd2262r3938te1b68f56n9mm22q3ljql/1554199200000/00265870319017208245/*/1bVuref2791x4XHCbDTmzlW70ZKuQm_08",
+          "image": "https://drive.google.com/uc?export=view&id=1bVuref2791x4XHCbDTmzlW70ZKuQm_08",
           "description": "Kato"
         },
         {
-          "image": "https://doc-00-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/pmjfnoap6pam83ireou9hv9th4s9gmff/1554199200000/00265870319017208245/*/1YoKif6tPb_9dwFxMikkFpKQY4x9hho2H",
+          "image": "https://drive.google.com/uc?export=view&id=1nuULjZAeWr2fFxu9QEsyaVeWHOGLJ4vA",
           "description": "Calmarc"
         },
         {
-          "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/fnasn6mfo60hee6j8bbmepqbgd7uva3g/1554199200000/00265870319017208245/*/18wJL1dyvC4jUouCT8TFuIzd1LL2h0HPM",
+          "image": "https://drive.google.com/uc?export=view&id=1YoKif6tPb_9dwFxMikkFpKQY4x9hho2H",
           "description": "Birtchar"
         },
         {
-          "image": "https://doc-0g-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/6mkp3i3tnu98j64gbbr63pjesrdslvam/1554199200000/00265870319017208245/*/1mJu7RmB8OPM0nTV_GKH0rq_MOLZyETN4",
+          "image": "https://drive.google.com/uc?export=view&id=18wJL1dyvC4jUouCT8TFuIzd1LL2h0HPM",
+          "description": "Avvid"
+        },
+        {
+          "image": "https://drive.google.com/uc?export=view&id=1mJu7RmB8OPM0nTV_GKH0rq_MOLZyETN4",
           "description": "Avvid"
         }
       ],
@@ -359,15 +417,15 @@
   "categories-highlights#dept1": {
     "props": {
       "categoriesHighlighted": { 
-        "categoryX": { "name": "Blue fan", "image": "https://doc-0o-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/a1oulru0tk6ugihntie0dqcehuoh4q9e/1554199200000/00265870319017208245/*/1sPQVkNNfrjPimkQD8aAFkfJI1d5fWaIz" }, 
-        "categoryY": { "name": "Motor-145MD", "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/t1hctum0g7pvrulfv1e57csd34mfk076/1554199200000/00265870319017208245/*/1XL4CDRWmDCB2nml1Z7pXzGy1-6KZn3Bh" },
-        "categoryA": { "name": "H64-3", "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/7vogv0dtfdfnajbgorjh0chlj9c91fee/1554199200000/00265870319017208245/*/1ov0GEVWW6f4JYZ5283QRfSLC-Cr2d1oY" }, 
-        "categoryB": { "name": "Connectors", "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/368f5l41bjtgr23blqlvr7sndq2po88t/1554199200000/00265870319017208245/*/1bcSE4cfXamiIt1bFDBioiJ0Q5X3xJpKd" },
-        "categoryC": { "name": "CD-134-Cooling", "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/k0gej9u2jv82avst2p9pp49hkavms3md/1554206400000/00265870319017208245/*/1X89RS_vmLM5UEhzlJX3AzVJGeuGqgUqy" }, 
-        "categoryD": { "name": "AC Fan", "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/pdm9entqletqb8bsvgqq59sh9dr0vet0/1554206400000/00265870319017208245/*/1UeuMa990lJmtoli6VZLeBK22FBMQOnFX" },
-        "categoryE": { "name": "Thermo Meter", "image": "https://doc-0c-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/9hd3ssuokh7sk68s43ikuvbds2tai3es/1554206400000/00265870319017208245/*/1zRmhrSHret9LXXymOboVg3U_ydKzgiR0" }, 
-        "categoryF": { "name": "Fan With Stand", "image": "https://doc-08-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/gtg50qibobc6uaf4849aobn8u23em8om/1554206400000/00265870319017208245/*/1Lq9tKMtWJvg_JuWEY93zEkdCh8017ZYm" },
-        "categoryG": { "name": "Cooling Fan", "image": "https://doc-0o-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/hma0fm2i3i1rt8apb9i4ik66oqkgsp55/1554206400000/00265870319017208245/*/11id4sqfqy2889Zw8um33DJuzYD3EbG82" }
+        "categoryX": { "name": "Blue fan", "image": "https://drive.google.com/uc?export=view&id=1sPQVkNNfrjPimkQD8aAFkfJI1d5fWaIz" }, 
+        "categoryY": { "name": "Motor-145MD", "image": "https://drive.google.com/uc?export=view&id=1XL4CDRWmDCB2nml1Z7pXzGy1-6KZn3Bh" },
+        "categoryA": { "name": "H64-3", "image": "https://drive.google.com/uc?export=view&id=1ov0GEVWW6f4JYZ5283QRfSLC-Cr2d1oY" },
+        "categoryB": { "name": "Connectors", "image": "https://drive.google.com/uc?export=view&id=1UeuMa990lJmtoli6VZLeBK22FBMQOnFX" },
+        "categoryC": { "name": "CD-134-Cooling", "image": "https://drive.google.com/uc?export=view&id=1X89RS_vmLM5UEhzlJX3AzVJGeuGqgUqy" },
+        "categoryD": { "name": "AC Fan", "image": "https://drive.google.com/uc?export=view&id=1XvBJ5_8N8gKC5TUBcbmIZJx0Qx9H-z-u" },
+        "categoryE": { "name": "Thermo Meter", "image": "https://drive.google.com/uc?export=view&id=1bcSE4cfXamiIt1bFDBioiJ0Q5X3xJpKd" },
+        "categoryF": { "name": "Fan With Stand", "image": "https://drive.google.com/uc?export=view&id=1Lq9tKMtWJvg_JuWEY93zEkdCh8017ZYm" },
+        "categoryG": { "name": "Cooling Fan", "image": "https://drive.google.com/uc?export=view&id=1zRmhrSHret9LXXymOboVg3U_ydKzgiR0" }
       },
       "showCategoriesHighlighted": true,
       "quantityOfItems":8,
@@ -383,14 +441,14 @@
   "categories-highlights#dept2": {
     "props": {
       "categoriesHighlighted": { 
-        "categoryX": { "name": "CH-1452", "image": "https://doc-14-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/kjo9jqk4h8sb3ucvufe74qc48qqb1lqh/1554220800000/00265870319017208245/*/1sL9XLP094LnAR0jm8wdcZ20NBgTe1ndT" }, 
-        "categoryY": { "name": "DD-12345", "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/fmsl5ro24qnvk6gupsuutoirkib91ufb/1554220800000/00265870319017208245/*/1lDhs6R-P_mclELKXPdMhnZ9X0duR8gUC" }, 
-        "categoryA": { "name": "H64-3", "image": "" }, 
+        "categoryX": { "name": "CH-1452", "image": "https://drive.google.com/uc?export=view&id=1zRmhrSHret9LXXymOboVg3U_ydKzgiR0" },
+        "categoryY": { "name": "DD-12345", "image": "https://drive.google.com/uc?export=view&id=1lDhs6R-P_mclELKXPdMhnZ9X0duR8gUC" },
+        "categoryA": { "name": "H64-3", "image": "https://drive.google.com/uc?export=view&id=1sL9XLP094LnAR0jm8wdcZ20NBgTe1ndT" }, 
         "categoryB": { "name": "Connectors", "image": "" }, 
-        "categoryC": { "name": "CD-134-Cooling", "image": "" }, 
+        "categoryC": { "name": "CD-134-Cooling", "image": "" },
         "categoryD": { "name": "AC Fan", "image": "" }, 
-        "categoryE": { "name": "Thermo Meter", "image": "" }, 
-        "categoryF": { "name": "Fan With Stand", "image": "" }, 
+        "categoryE": { "name": "Thermo Meter", "image": "" },
+        "categoryF": { "name": "Fan With Stand", "image": "" },
         "categoryG": { "name": "Cooling Fan", "image": "" }
       },
       "showCategoriesHighlighted": true,
@@ -407,15 +465,15 @@
   "categories-highlights#dept3": {
     "props": {
       "categoriesHighlighted": { 
-        "categoryX": { "name": "WH-1RT-52", "image": "https://doc-0s-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/2dmn0sc66a5963750cmfc5l2gs9l82sa/1554220800000/00265870319017208245/*/1nLrumfCku_i7UtgilIbuD0KRm9mexpTA" }, 
-        "categoryY": { "name": "DG-FB-25", "image": "https://doc-04-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/p49tqhc6feqljoeblc5fclk2djnskaef/1554220800000/00265870319017208245/*/1R-6H-izyr5fI2YZcBsRRtgDVc_EdbffA" }, 
-        "categoryA": { "name": "UL-4-3", "image": "https://doc-0c-1k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/812in32eq5flhqv8no9ko8afupmnltqj/1554220800000/00265870319017208245/*/1MQWtDmq548SFgIgYFM4wTIV7T8yDgXYr" }, 
-        "categoryB": { "name": "Connectors", "image": "" }, 
-        "categoryC": { "name": "CD-134-Cooling", "image": "" }, 
-        "categoryD": { "name": "AC Fan", "image": "" }, 
-        "categoryE": { "name": "Thermo Meter", "image": "" }, 
-        "categoryF": { "name": "Fan With Stand", "image": "" }, 
-        "categoryG": { "name": "Cooling Fan", "image": "" }
+        "categoryX": { "name": "WH-1RT-52", "image": "https://drive.google.com/uc?export=view&id=1MQWtDmq548SFgIgYFM4wTIV7T8yDgXYr" },
+        "categoryY": { "name": "DG-FB-25", "image": "https://drive.google.com/uc?export=view&id=1R-6H-izyr5fI2YZcBsRRtgDVc_EdbffA" },
+        "categoryA": { "name": "UL-4-3", "image": "https://drive.google.com/uc?export=view&id=1nLrumfCku_i7UtgilIbuD0KRm9mexpTA" },
+        "categoryB": { "name": "Connectors", "image": "" },
+        "categoryC": { "name": "CD-134-Cooling", "image": "https://drive.google.com/uc?export=view&id=1zRmhrSHret9LXXymOboVg3U_ydKzgiR0" }, 
+        "categoryD": { "name": "AC Fan", "image": "" },
+        "categoryE": { "name": "Thermo Meter", "image": "https://drive.google.com/uc?export=view&id=1UeuMa990lJmtoli6VZLeBK22FBMQOnFX" }, 
+        "categoryF": { "name": "Fan With Stand", "image": "https://drive.google.com/uc?export=view&id=1zRmhrSHret9LXXymOboVg3U_ydKzgiR0" }, 
+        "categoryG": { "name": "Cooling Fan", "image": "https://drive.google.com/uc?export=view&id=1sPQVkNNfrjPimkQD8aAFkfJI1d5fWaIz" }
       },
       "showCategoriesHighlighted": true,
       "quantityOfItems":8,
