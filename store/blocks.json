@@ -87,7 +87,7 @@
   },
   "category-menu":{
     "props":{
-      "showSubcategories": false
+      "showSubcategories": true
     }
   },
   "menu-link": {
