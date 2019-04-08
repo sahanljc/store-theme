@@ -1,0 +1,5 @@
+.itemContainer > a,
+.itemContainer > span {
+  margin: 0;
+  padding: 0;
+}
