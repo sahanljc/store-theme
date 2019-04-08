@@ -17,10 +17,19 @@
   width: 18.075rem;
 }
 
+.squaredCard,
+.rectangularCard a {
+  text-decoration: none;
+}
+
 .squaredCardImage {
   width: 9.375rem;
 }
 
 .rectangularCardImage {
   width: 18.075rem;
+}
+
+.logoContainer {
+  padding: 0;
 }

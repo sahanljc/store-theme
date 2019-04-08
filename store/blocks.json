@@ -37,7 +37,7 @@
   },
   "store.search#brand": {
     "blocks": [
-      "search-result"
+      "search-result#brand"
     ]
   },
   "store.search#department": {
@@ -47,12 +47,12 @@
   },
   "store.search#category": {
     "blocks": [
-      "search-result"
+      "search-result#category"
     ]
   },
   "store.search#subcategory": {
     "blocks": [
-      "search-result"
+      "search-result#subcategory"
     ]
   },
   "store.account": {
@@ -561,7 +561,8 @@
       "not-found",
       "breadcrumb",
       "order-by",
-      "total-products"
+      "total-products",
+      "category-panel"
     ],
     "props": {
       "querySchema": {
@@ -571,6 +572,7 @@
       "hiddenFacets": {
         "layoutMode1": "normal",
         "layoutMode2": "small",
+        "categories": true,
         "specificationFilters": {
           "hiddenFilters": [
             {
@@ -595,7 +597,59 @@
           "showProductReference": false
         }
       },
-      "pagination": "show-more"
+      "pagination": "show-more",
+      "showCategoryPanel": true
+    }
+  },
+  "search-result#category": {
+    "blocks": [
+      "filter-navigator",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products",
+      "category-panel"
+    ],
+    "props": {
+      "hiddenFacets": {
+        "categories": true
+      },
+      "showCategoryPanel": true
+    }
+  },
+  "search-result#subcategory": {
+    "blocks": [
+      "filter-navigator",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products",
+      "category-panel"
+    ],
+    "props": {
+      "hiddenFacets": {
+        "categories": true
+      },
+      "showCategoryPanel": true
+    }
+  },
+  "search-result#brand": {
+    "blocks": [
+      "filter-navigator",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products",
+      "category-panel"
+    ],
+    "props": {
+      "hiddenFacets": {
+        "categories": true
+      },
+      "showCategoryPanel": true
     }
   },
   "login-content#default": {

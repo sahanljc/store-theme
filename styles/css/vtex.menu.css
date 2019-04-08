@@ -1,3 +1,7 @@
 .container {
-  background: blue;
+  background-color: #357edd;
+}
+.linkRight {
+  color: #fff;
+  text-transform: uppercase;
 }
