@@ -85,6 +85,11 @@
       }
     }
   },
+  "category-menu":{
+    "props":{
+      "showSubcategories": false
+    }
+  },
   "menu-link": {
     "props": {
       "numberOfItems": 6,

@@ -1,0 +1,7 @@
+.itemContainerUl {
+  display: unset;
+}
+
+.itemContainerLi {
+  display: block;
+}
