@@ -1,3 +1,11 @@
+.itemsListContainer{
+  max-height: 36px;
+}
+
+.listItemContainer {
+  max-height: 22px;
+}
+
 .itemContainerUl {
   display: unset;
 }
