@@ -5,3 +5,39 @@
 .itemContainerLi {
   display: block;
 }
+
+.firstLevelLink {
+  font-weight: 600;
+}
+
+/* .listItemContainer {
+  max-height: 10px;
+} */
+
+.itemContainer {
+  /* display: block !important; */
+  /* position: relative; */
+}
+.parentUl {
+  display: block;
+}
+.parentLi {
+  width: 300px;
+  display: block;
+}
+.firstLevelLi {
+  list-style: none;
+}
+.secondLevelUl {
+  padding: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+/* .firstLevelLi:hover .secondLevelUl {
+  visibility: visible;
+} */
+.firstLevelUl:hover li {
+  visibility: visible;
+}
