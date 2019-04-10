@@ -33,3 +33,96 @@
 .logoContainer {
   padding: 0;
 }
+
+.squaredCard {
+  box-shadow: unset;
+}
+
+.squaredCard:hover {
+  box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .1 );
+}
+
+.titleContainer {
+  margin: auto;
+}
+
+.titleContainer h3 {
+  margin-left: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.titleBox {
+  border-bottom: 1px solid;
+  margin-bottom: 12px;
+}
+
+.rectangularCategoriesHighlights {
+  margin: auto;
+}
+
+.rectangularCategoriesHighlights > div > div {
+  width: 100%
+}
+
+.rectangularCard {
+  box-shadow: unset;
+  width: 45.2%;
+  margin: 5px;
+  text-align: center;
+}
+
+.rectangularCard:hover {
+  box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .1 );
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .rectangularCategoriesHighlights > div > div {
+    width: 50%
+  }
+  
+  .rectangularCard {
+    width: 45.83%;
+    margin: 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  .titleContainer {
+    margin: 0 3rem;
+  }
+
+  .rectangularCategoriesHighlights {
+    margin: 0 3rem;
+  }
+
+  .rectangularCategoriesHighlights > div > div {
+    width: 33.33%
+  }
+  
+  .rectangularCard {
+    width: 44.82%;
+    margin: 8px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titleContainer {
+    margin: 0 5.23rem;
+  }
+
+  .rectangularCategoriesHighlights {
+    margin: 0 5.23rem;
+  }
+
+  .rectangularCategoriesHighlights > div > div {
+    width:25%
+  }
+
+  .rectangularCard {
+    width: 46.85%;
+    margin: 5px 10px 5px 0;
+  }
+}
+
