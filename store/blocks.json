@@ -3,7 +3,6 @@
     "blocks": [
       "carousel#home",
       "carousel#banners",
-      "title#brands",
       "carousel#brands",
       "title#dept1",
       "categories-highlights#dept1",
@@ -362,48 +361,58 @@
       "draggable": false
     }
   },
-  "title#brands": {
-    "props": {
-      "content": "Manufacturer Spotlight",
-      "alignment": "center"
-    }
-  },
   "carousel#brands":{
     "props": {
       "autoplay": false,
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://drive.google.com/uc?export=view&id=1Cqs3TndXikpPLBdR-YFZ5f4mP8kJOpg4",
-          "description": "Southco"
+          "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
+          "description": "Southco",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
-          "description": "Raf"
+          "description": "Raf",
+          "page": "store.search#brand",
+          "params": "brand=raf"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=10Ngj8_Mj7RrueoNWjamTm0wY_Gxm-Aug",
-          "description": "Mill max"
+          "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
+          "description": "Mill max",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=1bVuref2791x4XHCbDTmzlW70ZKuQm_08",
-          "description": "Kato"
+          "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
+          "description": "Kato",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=1nuULjZAeWr2fFxu9QEsyaVeWHOGLJ4vA",
-          "description": "Calmarc"
+          "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
+          "description": "Calmarc",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=1YoKif6tPb_9dwFxMikkFpKQY4x9hho2H",
-          "description": "Birtchar"
+          "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
+          "description": "Birtchar",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=18wJL1dyvC4jUouCT8TFuIzd1LL2h0HPM",
-          "description": "Avvid"
+          "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
+          "description": "Avvid",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         },
         {
-          "image": "https://drive.google.com/uc?export=view&id=1mJu7RmB8OPM0nTV_GKH0rq_MOLZyETN4",
-          "description": "Avvid"
+          "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
+          "description": "Avvid",
+          "page": "store.search#brand",
+          "params": "brand=south-co"
         }
       ],
       "height": 200,
@@ -416,7 +425,7 @@
   "title#dept1": {
     "props": {
       "content": "Electronic Hardware",
-      "alignment": "center"
+      "alignment": "left"
     }
   },
   "categories-highlights#dept1": {
@@ -434,13 +443,13 @@
       },
       "showCategoriesHighlighted": true,
       "quantityOfItems":8,
-      "cardShape": "squared"
+      "cardShape": "rectangular"
     }
   },
   "title#dept2": {
     "props": {
       "content": "Electronic components",
-      "alignment": "center"
+      "alignment": "left"
     }
   },
   "categories-highlights#dept2": {
@@ -458,13 +467,13 @@
       },
       "showCategoriesHighlighted": true,
       "quantityOfItems":8,
-      "cardShape": "squared"
+      "cardShape": "rectangular"
     }
   },
   "title#dept3": {
     "props": {
       "content": "Fastners and Hardware",
-      "alignment": "center"
+      "alignment": "left"
     }
   },
   "categories-highlights#dept3": {
@@ -482,7 +491,7 @@
       },
       "showCategoriesHighlighted": true,
       "quantityOfItems":8,
-      "cardShape": "squared"
+      "cardShape": "rectangular"
     }
   },
   "shelf#home": {

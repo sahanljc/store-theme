@@ -1,5 +1,16 @@
 .container {
-  margin-bottom: 10px;
-  margin-left: 5.23rem;
-  margin-right: 5.23rem;
+  margin: 0 0 10px 0;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    margin: 0 3rem 10px 3rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    margin: 0 5.23rem 10px 5.23rem;
+  }
 }
