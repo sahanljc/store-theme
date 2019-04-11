@@ -1,4 +1,4 @@
-.itemsListContainer{
+.itemsListContainer {
   max-height: 36px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .firstLevelLink {
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* .listItemContainer {
@@ -30,8 +30,12 @@
   display: block;
 }
 .parentLi {
-  width: 300px;
+  width: 240px;
   display: block;
+  background-color: rgba(226, 226, 226, 0.4);
+}
+.firstLevelUl {
+  padding-left: 0;
 }
 .firstLevelLi {
   list-style: none;
