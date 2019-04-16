@@ -123,8 +123,9 @@
           "title": "Institucional",
           "links": [
             {
-              "__editorItemTitle": "Garantia Estendida",
-              "title": "Garantia Estendida"
+              "__editorItemTitle": "Supplier Chain",
+              "title": "Supplier Chain",
+              "url": "/supplierchain"
             },
             {
               "__editorItemTitle": "Relações com investidores",
@@ -351,5 +352,8 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
+  },
+  "store.custom#supplierChain": {
+    "blocks": [ "supply-chain-services" ]
   }
 }
