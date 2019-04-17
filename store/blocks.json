@@ -351,5 +351,8 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
+  },
+  "store.custom#warehouseLocations": {
+    "blocks": [ "warehouse-locations" ]
   }
 }
