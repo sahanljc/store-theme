@@ -75,7 +75,7 @@
       "search-bar",
       "menu-link",
       "telemarketing",
-      "category-menu"
+      "flyout-category-menu"
     ],
     "props":{
       "logoUrl": "https://www.biscoind.com/images/bisco-logo.png",
@@ -84,7 +84,7 @@
       }
     }
   },
-  "category-menu":{
+  "flyout-category-menu":{
     "props":{
       "showSubcategories": true
     }
