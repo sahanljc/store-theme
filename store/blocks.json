@@ -352,6 +352,9 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
+  "store.custom#supplierChain": {
+    "blocks": [ "supply-chain-servicess" ]
+  },
   "store.custom#warehouseLocations": {
     "blocks": [ "warehouse-locations" ]
   }
