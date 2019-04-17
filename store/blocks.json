@@ -353,7 +353,7 @@
     }
   },
   "store.custom#supplierChain": {
-    "blocks": [ "supply-chain-servicess" ]
+    "blocks": [ "supply-chain-services" ]
   },
   "store.custom#warehouseLocations": {
     "blocks": [ "warehouse-locations" ]
