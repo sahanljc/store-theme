@@ -19,6 +19,7 @@
       "shelf.relatedProducts"
     ]
   },
+<<<<<<< HEAD
   "store.custom#about": {
     "blocks": [
       "carousel#about"
@@ -27,6 +28,11 @@
   "store.custom#location": {
     "blocks": [
       "carousel#location"
+=======
+  "store.custom#contact": {
+    "blocks": [
+      "contact-form"
+>>>>>>> feature/contact-form
     ]
   },
   "store.search": {
