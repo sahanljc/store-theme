@@ -12,6 +12,11 @@
       "shelf.relatedProducts"
     ]
   },
+  "store.custom#contact": {
+    "blocks": [
+      "contact-form"
+    ]
+  },
   "store.search": {
     "blocks": [
       "search-result"
