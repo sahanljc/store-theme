@@ -29,6 +29,11 @@
       "carousel#location"
     ]
   },
+  "store.custom#contact": {
+    "blocks": [
+      "contact-form"
+    ]
+  },
   "store.search": {
     "blocks": [
       "search-result"
@@ -82,6 +87,11 @@
       "collapsibleAnimation": {
         "onScroll": false
       }
+    }
+  },
+  "flyout-category-menu":{
+    "props":{
+      "showSubcategories": true
     }
   },
   "menu-link": {
