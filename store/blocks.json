@@ -351,5 +351,10 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
+  },
+  "store.custom#aboutUs": {
+    "blocks": [
+      "rich-text"
+    ]
   }
 }
