@@ -24,6 +24,8 @@
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
-    "vtex.warehouse-locations": "0.x"
+    "vtex.warehouse-locations": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.video-slider": "0.x"
   }
 }

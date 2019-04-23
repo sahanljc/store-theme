@@ -128,12 +128,14 @@
               "url": "/supplierchain"
             },
             {
-              "__editorItemTitle": "Relações com investidores",
-              "title": "Relações com investidores"
+              "__editorItemTitle": "Warehouse locations",
+              "title": "Warehouse locations",
+              "url": "/locations"
             },
             {
-              "__editorItemTitle": "Trabalhe conosco",
-              "title": "Trabalhe conosco"
+              "__editorItemTitle": "About us",
+              "title": "about us",
+              "url": "/about"
             },
             {
               "__editorItemTitle": "Política de privacidade",
@@ -358,5 +360,18 @@
   },
   "store.custom#warehouseLocations": {
     "blocks": [ "warehouse-locations" ]
-  }
+  },
+  "store.custom#aboutUs": {
+    "blocks": [
+      "rich-text#title",
+      "video-slider",
+      "rich-text#paragraph1",
+      "rich-text#paragraph2",
+      "rich-text#paragraph3"
+    ]
+  }, 
+  "rich-text#title": { }, 
+  "rich-text#paragraph1": { }, 
+  "rich-text#paragraph2": { }, 
+  "rich-text#paragraph3": { }
 }
