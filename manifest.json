@@ -25,6 +25,7 @@
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flyout-category-menu": "0.x",
-    "vtex.contact-form": "0.x"
+    "vtex.contact-form": "0.x",
+    "vtex.quick-quote": "0.x"
   }
 }
