@@ -19,19 +19,9 @@
       "shelf.relatedProducts"
     ]
   },
-  "store.custom#about": {
-    "blocks": [
-      "carousel#about"
-    ]
-  },
-  "store.custom#location": {
-    "blocks": [
-      "carousel#location"
-    ]
-  },
   "store.custom#contact": {
     "blocks": [
-      "contact-form"
+    "contact-form"
     ]
   },
   "store.search": {
@@ -307,44 +297,6 @@
       "showDots": true
     }
   },
-  "carousel#about":{
-    "props": {
-      "autoplay": true,
-      "autoplaySpeed": 4,
-      "banners": [
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
-          "description": "Test description"
-        },
-        {
-          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
-          "description": "Test description 2"
-        }
-      ],
-      "height": 440,
-      "showArrows": true,
-      "showDots": true
-    }
-  },
-  "carousel#location":{
-    "props": {
-      "autoplay": true,
-      "autoplaySpeed": 4,
-      "banners": [
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
-          "description": "Test description"
-        },
-        {
-          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
-          "description": "Test description 2"
-        }
-      ],
-      "height": 440,
-      "showArrows": true,
-      "showDots": true
-    }
-  },
   "carousel#banners":{
     "props": {
       "autoplay": false,
@@ -363,7 +315,8 @@
       "showArrows": false,
       "showDots": false,
       "perPage": 2,
-      "draggable": false
+      "draggable": false,
+      "itemsPerPage": "300:2"
     }
   },
   "carousel#brands":{
@@ -423,8 +376,8 @@
       "height": 200,
       "showArrows": true,
       "showDots": false,
-      "perPage": 6,
-      "draggable": true
+      "draggable": true,
+      "itemsPerPage": "1000:6|750:4|300:2"
     }
   },
   "title#dept1": {
@@ -544,7 +497,8 @@
       "shipping-simulator",
       "availability-subscriber",
       "share",
-      "product-highlights"
+      "product-highlights",
+      "product-quantity-selector"
     ],
     "props": {
       "displayVertically": true,
