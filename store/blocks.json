@@ -150,17 +150,22 @@
             {
               "__editorItemTitle": "About Us",
               "title": "About Us",
-              "url": "#"
+              "url": "/about"
             },
             {
               "__editorItemTitle": "Locations",
               "title": "Locations",
-              "url": "#"
+              "url": "/locations"
             },
             {
               "__editorItemTitle": "Careers",
               "title": "Careers",
               "url": "#"
+            },
+            {
+              "__editorItemTitle": "Supplier Chain",
+              "title": "Supplier Chain",
+              "url": "/supplierchain"
             },
             {
               "__editorItemTitle": "Blog",
@@ -628,5 +633,20 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  }
+  },
+  "store.custom#supplierChain": {
+    "blocks": [ "supply-chain-services" ]
+  },
+  "store.custom#warehouseLocations": {
+    "blocks": [ "warehouse-locations" ]
+  },
+  "store.custom#aboutUs": {
+    "blocks": [
+      "rich-text#aboutUsTitle",
+      "video-slider",
+      "rich-text#aboutUsParagraph"
+    ]
+  }, 
+  "rich-text#aboutUsTitle": { }, 
+  "rich-text#aboutUsParagraph": { }
 }
