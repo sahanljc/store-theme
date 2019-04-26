@@ -504,7 +504,8 @@
       "availability-subscriber",
       "share",
       "product-highlights",
-      "product-quantity-selector"
+      "product-quantity-selector",
+      "price-breaks"
     ],
     "props": {
       "displayVertically": true,
