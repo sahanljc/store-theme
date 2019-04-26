@@ -123,8 +123,13 @@
           "title": "Institucional",
           "links": [
             {
+<<<<<<< HEAD
               "__editorItemTitle": "Supplier chain",
               "title": "Supplier chain",
+=======
+              "__editorItemTitle": "Supplier Chain",
+              "title": "Supplier Chain",
+>>>>>>> feature/supply-chain-services
               "url": "/supplierchain"
             },
             {
@@ -365,13 +370,9 @@
     "blocks": [
       "rich-text#title",
       "video-slider",
-      "rich-text#paragraph1",
-      "rich-text#paragraph2",
-      "rich-text#paragraph3"
+      "rich-text#aboutUsParagraph"
     ]
   }, 
   "rich-text#title": { }, 
-  "rich-text#paragraph1": { }, 
-  "rich-text#paragraph2": { }, 
-  "rich-text#paragraph3": { }
+  "rich-text#aboutUsParagraph": { }
 }
