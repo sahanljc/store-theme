@@ -276,7 +276,8 @@
       "sku-selector",
       "shipping-simulator",
       "availability-subscriber",
-      "share"
+      "share",
+      "price-breaks"
     ],
     "props": {
       "displayVertically": true,
