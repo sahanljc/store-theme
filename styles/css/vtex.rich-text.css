@@ -1,4 +1,4 @@
-[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#title"] {
+[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#aboutUsTitle"] {
   max-width: 96rem;
   justify-content: left;
   margin-right: auto;
@@ -6,7 +6,7 @@
   padding-top: 2rem;
 }
 
-[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#title"] p {
+[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#aboutUsTitle"] p {
   font-weight: bold;
 }
 
