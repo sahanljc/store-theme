@@ -1,1 +1,18 @@
-.test{}
+[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#title"] {
+  max-width: 96rem;
+  justify-content: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2rem;
+}
+
+[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#title"] p {
+  font-weight: bold;
+}
+
+[data-extension-point="vtex.store@2.x:store.custom#about/rich-text#aboutUsParagraph"] {
+  max-width: 96rem;
+  justify-content: left;
+  margin-right: auto;
+  margin-left: auto;
+}
