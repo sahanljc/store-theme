@@ -2,8 +2,8 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      "carousel#banners",
       "carousel#brands",
+      "carousel#banners",
       "title#dept1",
       "categories-highlights#dept1",
       "title#dept2",
@@ -316,7 +316,7 @@
           "description": "Test description 2"
         }
       ],
-      "height": 200,
+      "height": 400,
       "showArrows": false,
       "showDots": false,
       "perPage": 2,
