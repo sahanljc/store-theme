@@ -2,8 +2,8 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      "carousel#banners",
       "carousel#brands",
+      "carousel#banners",
       "title#dept1",
       "categories-highlights#dept1",
       "title#dept2",
@@ -19,19 +19,9 @@
       "shelf.relatedProducts"
     ]
   },
-  "store.custom#about": {
-    "blocks": [
-      "carousel#about"
-    ]
-  },
-  "store.custom#location": {
-    "blocks": [
-      "carousel#location"
-    ]
-  },
   "store.custom#contact": {
     "blocks": [
-      "contact-form"
+    "contact-form"
     ]
   },
   "store.search": {
@@ -96,7 +86,8 @@
       "logoUrl": "https://www.biscoind.com/images/bisco-logo.png",
       "collapsibleAnimation": {
         "onScroll": false
-      }
+      }, 
+      "linkUrl": "/"
     }
   },
   "flyout-category-menu":{
@@ -170,17 +161,22 @@
             {
               "__editorItemTitle": "About Us",
               "title": "About Us",
-              "url": "#"
+              "url": "/about"
             },
             {
               "__editorItemTitle": "Locations",
               "title": "Locations",
-              "url": "#"
+              "url": "/locations"
             },
             {
               "__editorItemTitle": "Careers",
               "title": "Careers",
               "url": "#"
+            },
+            {
+              "__editorItemTitle": "Supplier Chain",
+              "title": "Supplier Chain",
+              "url": "/supplierchain"
             },
             {
               "__editorItemTitle": "Blog",
@@ -317,44 +313,6 @@
       "showDots": true
     }
   },
-  "carousel#about":{
-    "props": {
-      "autoplay": true,
-      "autoplaySpeed": 4,
-      "banners": [
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
-          "description": "Test description"
-        },
-        {
-          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
-          "description": "Test description 2"
-        }
-      ],
-      "height": 440,
-      "showArrows": true,
-      "showDots": true
-    }
-  },
-  "carousel#location":{
-    "props": {
-      "autoplay": true,
-      "autoplaySpeed": 4,
-      "banners": [
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1C7JVNNDz5okMCVqhgJSAluxgypi7r2gu",
-          "description": "Test description"
-        },
-        {
-          "image": "https://www.derflex-sign.com/uploads/20177817/ImgScroll/ba201701101709044907773.jpg",
-          "description": "Test description 2"
-        }
-      ],
-      "height": 440,
-      "showArrows": true,
-      "showDots": true
-    }
-  },
   "carousel#banners":{
     "props": {
       "autoplay": false,
@@ -369,11 +327,10 @@
           "description": "Test description 2"
         }
       ],
-      "height": 200,
+      "height": 175,
       "showArrows": false,
       "showDots": false,
-      "perPage": 2,
-      "draggable": false
+      "itemsPerPage": "300:3"
     }
   },
   "carousel#brands":{
@@ -385,56 +342,64 @@
           "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
           "description": "Southco",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
           "description": "Raf",
           "page": "store.search#brand",
-          "params": "brand=raf"
+          "params": "brand=raf",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
           "description": "Mill max",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
           "description": "Kato",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Calmarc",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Birtchar",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Avvid",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Avvid",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         }
       ],
-      "height": 200,
+      "height": 175,
       "showArrows": true,
       "showDots": false,
-      "perPage": 6,
-      "draggable": true
+      "draggable": true,
+      "itemsPerPage": "1000:6|750:4|300:2"
     }
   },
   "title#dept1": {
@@ -555,7 +520,9 @@
       "shipping-simulator",
       "availability-subscriber",
       "share",
-      "product-highlights"
+      "product-highlights",
+      "product-quantity-selector",
+      "price-breaks"
     ],
     "props": {
       "displayVertically": true,
@@ -684,5 +651,20 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  }
+  },
+  "store.custom#supplierChain": {
+    "blocks": [ "supply-chain-services" ]
+  },
+  "store.custom#warehouseLocations": {
+    "blocks": [ "warehouse-locations" ]
+  },
+  "store.custom#aboutUs": {
+    "blocks": [
+      "rich-text#aboutUsTitle",
+      "video-slider",
+      "rich-text#aboutUsParagraph"
+    ]
+  }, 
+  "rich-text#aboutUsTitle": { }, 
+  "rich-text#aboutUsParagraph": { }
 }

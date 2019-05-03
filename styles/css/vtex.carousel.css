@@ -2,19 +2,8 @@
   margin: 0 0 10px 0;
 }
 
-@media only screen and (max-width: 425px) {
-  [data-extension-point="store.home/carousel#brands"] li {
-    width: 50% !important;
-    display:none;
-  }
-  
-  [data-extension-point="store.home/carousel#brands"] li:first-child {
-    display: inline-flex;
-  }
-  
-  [data-extension-point="store.home/carousel#brands"] li:nth-child(2) {
-    display: inline-flex;
-  }
+.containerImg {
+  padding: 0 10px 0 10px
 }
 
 @media only screen and (min-width: 1024px) {
@@ -25,6 +14,6 @@
 
 @media only screen and (min-width: 1440px) {
   .container {
-    margin: 0 5.23rem 10px 5.23rem;
+    margin: 0 5.23rem 25px 5.23rem;
   }
 }
