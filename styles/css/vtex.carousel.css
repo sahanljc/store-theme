@@ -2,6 +2,10 @@
   margin: 0 0 10px 0;
 }
 
+.containerImg {
+  padding: 0 10px 0 10px
+}
+
 @media only screen and (min-width: 1024px) {
   .container {
     margin: 0 3rem 10px 3rem;

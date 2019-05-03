@@ -116,6 +116,12 @@
     width: 44.82%;
     margin: 8px;
   }
+
+  .logoContainer img{
+    height: 52px;
+    width: 170px;
+    margin: 10px 0 0 20px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -135,6 +141,12 @@
     width: 44.85%;
     height:12.38rem;
     margin: 20px 10px 10px 10px;
+  }
+
+  .logoContainer img{
+    height: 52px;
+    width: 170px;
+    margin: 10px 0 0 20px;
   }
 }
 

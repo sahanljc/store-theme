@@ -76,7 +76,8 @@
       "logoUrl": "https://www.biscoind.com/images/bisco-logo.png",
       "collapsibleAnimation": {
         "onScroll": false
-      }
+      }, 
+      "linkUrl": "/"
     }
   },
   "flyout-category-menu":{
@@ -316,12 +317,10 @@
           "description": "Test description 2"
         }
       ],
-      "height": 400,
+      "height": 175,
       "showArrows": false,
       "showDots": false,
-      "perPage": 2,
-      "draggable": false,
-      "itemsPerPage": "300:2"
+      "itemsPerPage": "300:3"
     }
   },
   "carousel#brands":{
@@ -333,52 +332,60 @@
           "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
           "description": "Southco",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
           "description": "Raf",
           "page": "store.search#brand",
-          "params": "brand=raf"
+          "params": "brand=raf",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1jCcAkfA95cBhAVH8EOGxGOLRbz4YmIz2",
           "description": "Mill max",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1653h2RP8ToevssawdxnorqlmQJWv3CBP",
           "description": "Kato",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Calmarc",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Birtchar",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Avvid",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         },
         {
           "image": "https://drive.google.com/uc?export=view&id=1cXAR-C6pV7g2MumAwMXuy7t5FEp11C6U",
           "description": "Avvid",
           "page": "store.search#brand",
-          "params": "brand=south-co"
+          "params": "brand=south-co",
+          "animateItemOnHover": true
         }
       ],
-      "height": 200,
+      "height": 175,
       "showArrows": true,
       "showDots": false,
       "draggable": true,
